@@ -112,7 +112,7 @@ typedef enum opr Operator;
     calc = [[Calculator alloc] init];
     currentOpr = none;
     currentValue = 0;
-    //ickwj
+    
     self.myLabel.text = @"0";
     
 }
