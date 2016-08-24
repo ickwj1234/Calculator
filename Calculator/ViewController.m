@@ -107,10 +107,13 @@ typedef enum opr Operator;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
     calc = [[Calculator alloc] init];
     currentOpr = none;
     currentValue = 0;
+    
+    self.myLabel.text = @"0";
     
 }
 
