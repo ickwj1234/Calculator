@@ -9,6 +9,7 @@
 #import "Calculator.h"
 
 @implementation Calculator
+
 //{
 //    double accumulator;
 //}
@@ -23,10 +24,11 @@
 //    return accumulator;
 //}
 
-//헤더파일의 프로퍼티 적용으로 인해 self. 추가
+//헤더파일의 프로퍼티 적용으로 인해 self. or _ 추가
 - (void)clear;
 {
-    self.accumulator = 0;
+//    self.accumulator = 0;
+    _accumulator = 0;
 }
 
 - (void) add: (double) value

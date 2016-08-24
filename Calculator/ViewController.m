@@ -118,6 +118,7 @@ typedef enum opr Operator;
     
 }
 
+//메모리 경고 받았을 때 수행되는 메소드
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
